@@ -8,7 +8,7 @@ public class ButtonTest : MonoBehaviour
 
 	public void DoSomething()
 	{
-		Debug.Log (Slider.value.ToString());
+		Debug.Log(Slider.value.ToString());
 
 	}
 }
