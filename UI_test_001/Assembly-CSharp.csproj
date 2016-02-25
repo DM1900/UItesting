@@ -45,18 +45,26 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\scripts\ApplicationManager.cs" />
      <Compile Include="Assets\scripts\ButtonTest.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
+     <Compile Include="Assets\scripts\ChangeColor.cs" />
+     <Compile Include="Assets\scripts\DragMe.cs" />
+     <Compile Include="Assets\scripts\DragPanel.cs" />
+     <Compile Include="Assets\scripts\DropMe.cs" />
+     <Compile Include="Assets\scripts\PanelManager.cs" />
+     <Compile Include="Assets\scripts\ResizePanel.cs" />
+     <Compile Include="Assets\scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\scripts\TiltWindow.cs" />
+     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
